@@ -30,7 +30,11 @@ export const TextContainer = styled(Container).attrs({
     margin-bottom: 0.25em;
   }
 
+  p {
+    hyphens: auto;
+  }
+
   p + p {
-    margin-top: 0.5em;
+    margin-top: 0.75em;
   }
 `

@@ -8,9 +8,10 @@
 body {
   background-color: #f1f1f1;
   color: #192223;
-  font-family: freight-sans-pro;
+  font-family: acumin-pro;
   font-size: 100%;
   -webkit-font-smoothing: antialiased;
+  line-height: 1.35;
   margin: 0;
 }
 
@@ -36,13 +37,6 @@ h6 {
 #page {
   font-size: 1em;
   line-height: 1.25;
-}
-
-@media (min-width: 43.75em) {
-  #page {
-    font-size: 1em;
-    line-height: 1.375;
-  }
 }
 
 h1.louder {
@@ -77,13 +71,6 @@ h1 {
   }
 }
 
-@media (min-width: 56.25em) {
-  h1 {
-    font-size: 3em;
-    line-height: 1.05;
-  }
-}
-
 h2 {
   font-size: 1.625em;
   font-weight: 500;
@@ -97,13 +84,6 @@ h2 {
   }
 }
 
-@media (min-width: 56.25em) {
-  h2 {
-    font-size: 2.25em;
-    line-height: 1.25;
-  }
-}
-
 h3 {
   font-size: 1.375em;
   font-weight: 500;
@@ -113,13 +93,6 @@ h3 {
 @media (min-width: 43.75em) {
   h3 {
     font-size: 1.5em;
-    line-height: 1.25;
-  }
-}
-
-@media (min-width: 56.25em) {
-  h3 {
-    font-size: 1.75em;
     line-height: 1.25;
   }
 }

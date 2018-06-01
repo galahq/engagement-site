@@ -7,7 +7,6 @@ const Button = styled.button`
   border-radius: 4px;
   color: #f1f1f1;
   cursor: pointer;
-  font-family: freight-sans-pro;
   font-size: 1em;
   font-weight: 600;
   padding: 0.25em 1em;
