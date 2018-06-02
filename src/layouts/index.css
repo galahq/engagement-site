@@ -46,60 +46,63 @@ h1.louder {
 
 @media (min-width: 43.75em) {
   h1.louder {
-    font-size: 3.5em;
+    font-size: 3.75em;
     line-height: 0.9;
   }
 }
 
 @media (min-width: 56.25em) {
   h1.louder {
-    font-size: 4em;
+    font-size: 4.5em;
     line-height: 0.9;
   }
 }
 
 h1 {
   font-size: 2em;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.25;
 }
 
 @media (min-width: 43.75em) {
   h1 {
     font-size: 2.5em;
+    font-weight: 500;
     line-height: 1.125;
   }
 }
 
 h2 {
   font-size: 1.625em;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.15384615;
 }
 
 @media (min-width: 43.75em) {
   h2 {
     font-size: 2em;
+    font-weight: 500;
     line-height: 1.25;
   }
 }
 
 h3 {
   font-size: 1.375em;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.13636364;
 }
 
 @media (min-width: 43.75em) {
   h3 {
     font-size: 1.5em;
+    font-weight: 500;
     line-height: 1.25;
   }
 }
 
 h4 {
   font-size: 1.125em;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.11111111;
 }
 
