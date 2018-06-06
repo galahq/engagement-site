@@ -57,19 +57,19 @@ const IndexPage = () => (
         kicker="Green vs. Grey"
         title="What’s the path to sustainable stormwater management in Washtenaw County?"
         imageSrc={stormwater}
-        href="https://www.learngala.com/en/cases/washtenaw-county-rain-gardens"
+        href="https://www.learngala.com/magic_link?key=8uQC8kRdSVC2fbIIBcqm0Q"
       />
       <Case
         kicker="Dioxane Plume Pollution"
         title="Who should deal with the groundwater contamination in a university town?"
         imageSrc={dioxane}
-        href="https://www.learngala.com/en/cases/dioxane-plume"
+        href="https://www.learngala.com/magic_link?key=_xXKCQuMwlDDKbfKA26J1w"
       />
       <Case
         kicker="Controlled Dam Removal"
         title="Dammed if you do, dammed if you don’t: should Pellston remove its historic dam?"
         imageSrc={dam}
-        href="https://www.learngala.com/en/cases/maple-river-dam"
+        href="https://www.learngala.com/magic_link?key=nbtwRu-4vlp6FGCxmhDZ8g"
       />
     </CasesContainer>
 
