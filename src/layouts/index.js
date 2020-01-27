@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
+import Header from '../components/header'
 
 import { TextContainer } from '../components/container'
 
@@ -8,7 +9,7 @@ import wave from '../assets/wave.png'
 import './index.css'
 
 const Layout = ({ children, data }) => (
-  <Body>
+  <Body full={location.pathname === '/'}>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -16,18 +17,15 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
         { name: 'viewport', content: 'initial-scale=1, viewport-fit=cover' },
       ]}
-    />
+    ></Helmet>
+
+    <Header full={location.pathname === '/'}></Header>
     {children()}
     <Footer>
       <TextContainer>
-        The Citizen Sustainability Certificate is a partnership between{' '}
-        <a href="http://www.teachmsc.org">Michigan Sustainability Cases</a>, a
-        project of the{' '}
-        <a href="http://seas.umich.edu">
-          School of Environment and Sustainability
-        </a>{' '}
-        at the <a href="https://umich.edu">University of Michigan</a>, and the{' '}
-        <a href="https://www.a2gov.org/Pages/default.aspx">City of Ann Arbor</a>.
+        Briefing is a project of{" "}
+        <a href="learnmsc.com">Gala</a>, an initiative at the <a href="umich.edu">University of Michigan</a> working to connect research, learning and practice for smarter sustainability.
+        
       </TextContainer>
     </Footer>
   </Body>
@@ -46,11 +44,14 @@ export const query = graphql`
 
 const Body = styled.div`
   background-color: #f1f1f1;
-  background-image: url(${wave});
-  background-repeat: repeat-x;
-  background-size: 14px;
   border: 0.1px solid transparent;
   min-height: 100vh;
+
+  ${props =>
+    props.full ||
+    'background-image: url(' +
+      wave +
+      '); background-repeat: repeat-x; background-size: 14px;'};
 `
 
 const Footer = styled.footer`

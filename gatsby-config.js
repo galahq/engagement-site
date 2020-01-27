@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Citizen Sustainability Certificate',
+    title: 'Briefing: Resources from Gala',
   },
   plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-styled-components'],
 }

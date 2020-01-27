@@ -1,21 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import BaseButton from './button'
-import BaseCard from './card'
+import BaseButton from '../button'
+import BaseCard from '../../components/card'
 
 export default ({ kicker, title, imageSrc, href }) => (
   <Card href={href}>
     <Image src={imageSrc} />
     <Kicker>{kicker}</Kicker>
     <Description>{title}</Description>
-    <Button>Read Now</Button>
+    <Button>Read the Full Case</Button>
   </Card>
 )
 
 const Card = BaseCard.withComponent('a').extend`
   color: #192223;
   text-decoration: none;
+  display: inline-block;
+  margin: .4em;
 `
 
 const Button = BaseButton.withComponent('span').extend`
