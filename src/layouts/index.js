@@ -2,19 +2,22 @@ import React from 'react'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import Header from '../components/header'
-
+import Link from 'gatsby-link'
 import { TextContainer } from '../components/container'
 
 import wave from '../assets/wave.png'
 import './index.css'
 
-const Layout = ({ children, data }) => (
+const Layout = ({ location, children, data }) => (
   <Body full={location.pathname === '/'}>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Briefing' },
+        {
+          name: 'keywords',
+          content: 'cases, sustainability, resources, multimedia',
+        },
         { name: 'viewport', content: 'initial-scale=1, viewport-fit=cover' },
       ]}
     ></Helmet>
@@ -23,9 +26,9 @@ const Layout = ({ children, data }) => (
     {children()}
     <Footer>
       <TextContainer>
-        Briefing is a project of{" "}
-        <a href="learnmsc.com">Gala</a>, an initiative at the <a href="umich.edu">University of Michigan</a> working to connect research, learning and practice for smarter sustainability.
-        
+        Briefing is a project of <a href="learnmsc.com">Gala</a>, an initiative
+        at the <a href="umich.edu">University of Michigan</a> working to connect
+        research, learning and practice for smarter sustainability.
       </TextContainer>
     </Footer>
   </Body>
