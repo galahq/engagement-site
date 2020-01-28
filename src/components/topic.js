@@ -21,7 +21,6 @@ const Card = BaseCard.withComponent('a').extend`
   color: #192223;
   text-decoration: none;
   display: flex;
-
 `
 const TextBlock = styled.div`
   padding: 1rem;

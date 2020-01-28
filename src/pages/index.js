@@ -11,9 +11,10 @@ const IndexPage = () => (
     <TextContainer>
       <p>
         Our work connecting research, learning, and practice leads us to create
-        and discover a wide range of multimedia resources. While you can often discover this content embeded within{' '}
-        <Link href="http://learngala.com">cases in our catalog</Link>, we
-        also compile and present some of these resources here, to help nform active
+        and discover a wide range of multimedia resources. While you can often
+        discover this content embeded within{' '}
+        <Link href="http://learngala.com">cases in our catalog</Link>, we also
+        compile and present some of these resources here, to help nform active
         public discussion and problem-solving.
       </p>
       <h2 id="Topics">Topics</h2>
