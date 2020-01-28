@@ -8,7 +8,7 @@ export default ({ title, description, videoSrc }) => (
     <Description>{description}</Description>
     <Frame
       width="100%"
-      height="260px"
+      height="250px"
       src={'https://www.youtube.com/embed/' + videoSrc}
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media;"
@@ -32,7 +32,7 @@ const VideoTitle = styled.h3`
 const Description = styled.p`
   font-size: 0.95em;
   line-height: 1.1;
-  margin: 0.25em 0 1em;
+  margin: 0.75em 0 1em;
 `
 const Frame = styled.iframe`
   border: 0;
