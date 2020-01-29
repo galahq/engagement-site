@@ -7,6 +7,7 @@ import Container from '../components/container'
 import AudioCard from '../components/cards/audio'
 import VideoCard from '../components/cards/video'
 import TextCard from '../components/cards/text'
+import Resource from '../components/cards/resource'
 import { Title, Header, Section, Content } from '../components/grid'
 
 import dioxane from '../assets/dioxane.jpg'
@@ -146,6 +147,61 @@ and hosts Ed Waisanen and Anna Prushinskaya."
           description="Roger Rayle has been engaged with the Dioxane issue for decades, serving as chair of CARD and compiling a trove of information with Scio Residents for Safe Water. He worries about keeping the public informed and engaged over the long-haul."
           videoSrc="3lR3ug-CpxM"
         ></VideoCard>
+      </Content>
+    </Section>
+    <Header>More Resources</Header>
+    <Section>
+      <Content full>Stakeholders and information repositories</Content>
+      <Content third>
+        <Resource
+          title="Scio Residents for Safe Water"
+          description="(SRSW)"
+          href="https://sites.google.com/site/srsworg/"
+        ></Resource>
+      </Content>{' '}
+      <Content third>
+        <Resource
+          title="Gelman Sciences, Inc. Site of Contamination Information"
+          description="Michigan EGLE"
+          href="https://www.michigan.gov/egle/0,9429,7-135-3311_4109_9846-71595--,00.html"
+        ></Resource>
+      </Content>
+      <Content third>
+        <Resource
+          title="Coalition for Action on Remediation of Dioxane"
+          description="(CARD)"
+          href="https://www.washtenaw.org/1774/Coalition-for-Action-on-Remediation-of-D"
+        ></Resource>
+      </Content>
+      <Content full>News Coverage</Content>
+      <Content third>
+        <Resource
+          title="All Gelman Plume Coverage"
+          description="MLive.com"
+          href="https://www.mlive.com/search/?q=gelman%20plume%20"
+        ></Resource>
+      </Content>
+      <Content third>
+        <Resource
+          title="Dioxane in Ann Arbor"
+          description="The Green Room (WEMU)"
+          href="http://dioxanea2.blogspot.com/"
+        ></Resource>
+      </Content>
+      <Content third>
+        <Resource
+          title="All Dioxane Coverage"
+          description="Michigan Radio"
+          href="https://www.michiganradio.org/search/google/dioxane"
+        ></Resource>
+      </Content>
+      <Content full>Historical</Content>
+      <Content third>
+        <Resource
+          title="History of the Pall-Gelman Dioxane Groundwater Contamination Cleanup"
+          description="Ann Arbor District Library"
+          href="https://aadl.org/taxonomy/term/89559"
+        ></Resource>
       </Content>
     </Section>
   </Container>
