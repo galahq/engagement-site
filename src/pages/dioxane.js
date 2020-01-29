@@ -19,17 +19,18 @@ const DioxanePage = () => (
     <Section>
       <Content full>
         <TextCard>
-          With the dioxane plume and the decision of how best to pursue clean-up{' '}
+          With the dioxane plume and the decision of how best to pursue cleanup{' '}
           <a href="https://www.michiganradio.org/post/epa-involvement-many-years-ann-arbors-gelman-plume-cleanup">
             back in focus
           </a>
-          , we have chosen to make a number of resources available here. This
-          content was produced primarily for a teaching case in our Michigan
-          Sustainability Cases library, but—as we believe strongly in connecting
-          classroom learning and actually-unfolding sustainability issues—it
-          seems relevant to share as{' '}
+          , we have collected a number of resources here to quickly bring you up
+          to speed. This content was produced primarily for a teaching case in
+          our Michigan Sustainability Cases library, but because we believe
+          strongly in connecting classroom learning with sustainability issues
+          unfolding in real time, we are sharing these tools now seems relevant
+          to share as{' '}
           <a href="https://www.mlive.com/news/ann-arbor/2020/01/epa-state-officials-to-answer-questions-about-ann-arbor-dioxane-cleanup-tonight.html">
-            the issue moves foreward.
+            the issue moves forward.
           </a>
         </TextCard>
       </Content>
@@ -40,15 +41,15 @@ const DioxanePage = () => (
         <p>
           Decades ago, Gelman Sciences, a company on the edge of Ann Arbor,
           severely contaminated an aquifer beneath the city with a carcinogenic
-          chemical, 1,4-dioxane. Since that time, a chemical plume has continued
-          to migrate through the city and county, contaminating local lakes and
-          private drinking water wells. In the future, the plume may threaten to
-          the town's water supply and the state’s consent decree with the
-          industry may not be protective of wildlife and citizens.
+          chemical, 1,4-dioxane. Since then, a chemical plume has continued to
+          migrate through the city and county, contaminating local lakes and
+          private drinking water wells. In the present, the state's consent
+          decree that determines how the plume will be managed is showing signs
+          that it may not adequately protect wildlife and citizens.
         </p>
         <p>
           This case study explores the question of whether the Ann Arbor city
-          council should seek superfund status for the Gelman site. To some, the
+          council should seek Superfund status for the Gelman site. To some, the
           federal, state and local response to the ecological and public health
           risks has been disappointing. Local advocacy has challenged
           authorities to resolve the issue. Some say designating the site as one
@@ -118,12 +119,12 @@ and hosts Ed Waisanen and Anna Prushinskaya."
         </a>{' '}
         on the dioxane issue in the Ann Arbor area, bringing together experts,
         stakeholders, concerned citizens, and activists. Some attendees'
-        thoughts from years working on the issue are featured here.
+        thoughts, informed by years of working on the issue are featured here.
       </Content>
       <Content half>
         <VideoCard
           title="What we know causes concern."
-          description="Rita Loch-Caruso, Professor of Environmental Health Sciences at the University of Michigan, discusses why 1-4 dioxane is so good at polluting water, what is concerning about human exposure, and what we still don't know."
+          description="Rita Loch-Caruso, Professor of Environmental Health Sciences at the University of Michigan, discusses why 1,4 dioxane is such an intractable water pollutants, what is concerning about human exposure, and what we still don't know."
           videoSrc="WGGTjzM3aQY"
         ></VideoCard>
       </Content>
@@ -144,7 +145,7 @@ and hosts Ed Waisanen and Anna Prushinskaya."
       <Content half>
         <VideoCard
           title="How do you keep people engaged long-term?"
-          description="Roger Rayle has been engaged with the Dioxane issue for decades, serving as chair of CARD and compiling a trove of information with Scio Residents for Safe Water. He worries about keeping the public informed and engaged over the long-haul."
+          description="Roger Rayle has been engaged with the dioxane issue for decades, serving as chair of CARD and compiling a trove of information with Scio Residents for Safe Water. He worries about keeping the public informed and engaged over the long-haul."
           videoSrc="3lR3ug-CpxM"
         ></VideoCard>
       </Content>
