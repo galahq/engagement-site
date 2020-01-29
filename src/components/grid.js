@@ -24,6 +24,7 @@ export const Section = styled.div`
   margin-bottom: 2em;
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
+    grid-gap: 1rem;
   }
 `
 export const Content = styled.div`
@@ -31,7 +32,7 @@ export const Content = styled.div`
     ${props => (props.third ? 2 : props.half ? 3 : props.twothirds ? 4 : 6)};
 
   @media (max-width: 700px) {
-    margin: auto auto;
+    margin: 15px;
     grid-column: span 1;
   }
 `

@@ -20,6 +20,9 @@ const Card = BaseCard.withComponent('a').extend`
   &:hover {
     box-shadow: none;
   }
+  @media (max-width: 700px) {
+    width: 90%;
+  }
 `
 
 const Title = styled.a`
