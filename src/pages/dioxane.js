@@ -149,7 +149,74 @@ and hosts Ed Waisanen and Anna Prushinskaya."
         ></VideoCard>
       </Content>
     </Section>
+    <Header>More Resources</Header>
+    <Section>
+      <Content full>Stakeholders and information repositories</Content>
+      <Content full>
+        <List>
+          <li>
+            <a href="https://sites.google.com/site/srsworg/">
+              Scio Residents for Safe Water (SRSW)
+            </a>
+          </li>
+          <li>
+            <a href="https://www.washtenaw.org/1774/Coalition-for-Action-on-Remediation-of-D">
+              Coalition for Action on Remediation of Dioxane (CARD)
+            </a>
+          </li>
+          <li>
+            <a href="https://www.michigan.gov/egle/0,9429,7-135-3311_4109_9846-71595--,00.html">
+              Gelman Sciences, Inc. Site of Contamination Information
+            </a>
+          </li>
+        </List>
+      </Content>
+      <Content full>News Coverage</Content>
+      <Content full>
+        <List>
+          <li>
+            <a href="https://www.mlive.com/search/?q=gelman%20plume%20">
+              Gelman Plume Coverage
+            </a>{' '}
+            (MLive.com)
+          </li>
+          <li>
+            <a href="http://dioxanea2.blogspot.com/">
+              The Green Room: Dioxane in Ann Arbor
+            </a>{' '}
+            (WEMU)
+          </li>
+          <li>
+            <a href="https://www.michiganradio.org/search/google/dioxane">
+              Dioxane Coverage
+            </a>{' '}
+            (Michigan Radio)
+          </li>
+        </List>
+      </Content>
+      <Content full>Historical</Content>
+      <Content full>
+        <List>
+          <li>
+            <a href="https://aadl.org/taxonomy/term/89559">
+              History of the Pall-Gelman Dioxane Groundwater Contamination
+              Cleanup
+            </a>{' '}
+            (Ann Arbor District Library)
+          </li>
+        </List>
+      </Content>
+    </Section>
   </Container>
 )
 
 export default DioxanePage
+
+const List = styled.ul`
+  list-style: circle inside;
+  padding-left: 1em;
+
+  li {
+    margin: 0 0 3px 0;
+  }
+`
