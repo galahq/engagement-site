@@ -27,8 +27,7 @@ const DioxanePage = () => (
           to speed. This content was produced primarily for a teaching case in
           our Michigan Sustainability Cases library, but because we believe
           strongly in connecting classroom learning with sustainability issues
-          unfolding in real time, we are sharing these tools now seems relevant
-          to share as{' '}
+          unfolding in real time, we are sharing these tools now as{' '}
           <a href="https://www.mlive.com/news/ann-arbor/2020/01/epa-state-officials-to-answer-questions-about-ann-arbor-dioxane-cleanup-tonight.html">
             the issue moves forward.
           </a>
@@ -124,7 +123,7 @@ and hosts Ed Waisanen and Anna Prushinskaya."
       <Content half>
         <VideoCard
           title="What we know causes concern."
-          description="Rita Loch-Caruso, Professor of Environmental Health Sciences at the University of Michigan, discusses why 1,4 dioxane is such an intractable water pollutants, what is concerning about human exposure, and what we still don't know."
+          description="Rita Loch-Caruso, Professor of Environmental Health Sciences at the University of Michigan, discusses why 1,4 dioxane is such an intractable water pollutant, what is concerning about human exposure, and what we still don't know."
           videoSrc="WGGTjzM3aQY"
         ></VideoCard>
       </Content>
@@ -138,7 +137,7 @@ and hosts Ed Waisanen and Anna Prushinskaya."
       <Content half>
         <VideoCard
           title="We still have the opportunity to do a real cleanup."
-          description="Vince Caruso is Treasurer of the Coalition for Action on Remediation of Dioxane (CARD). He thinks that superfund status is the best path to a 'total cleanup' of the Gelman site because, the EPA would restore polluted water sources to their original state."
+          description="Vince Caruso is Treasurer of the Coalition for Action on Remediation of Dioxane (CARD). He thinks that superfund status is the best path to a 'total cleanup' of the Gelman site because the EPA would restore polluted water sources to their original state."
           videoSrc="GFzsNIL47kw"
         ></VideoCard>
       </Content>
