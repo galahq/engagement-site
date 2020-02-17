@@ -9,7 +9,7 @@ export default ({ title, description, videoSrc }) => (
     <Frame
       width="100%"
       height="250px"
-      src={'https://www.youtube.com/embed/' + videoSrc}
+      src={videoSrc}
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media;"
       allowfullscreen
