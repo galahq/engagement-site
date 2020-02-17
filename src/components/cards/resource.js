@@ -14,8 +14,8 @@ const Card = BaseCard.withComponent('a').extend`
   color: #192223;
   text-decoration: none;
   display: inline-block;
-  padding: 1em;
   hyphens: manual;
+  margin: .4em;
   width: 80%;
   &:hover {
     box-shadow: none;
@@ -25,7 +25,7 @@ const Card = BaseCard.withComponent('a').extend`
   }
 `
 
-const Title = styled.a`
+const Title = styled.h3`
   text-decoration: underline;
   font-size: 1em;
   font-weight: 600;
