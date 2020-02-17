@@ -20,7 +20,7 @@ const AudioCard = BaseCard.withComponent('a').extend`
 
 const Image = styled.img`
   padding-bottom: 0.5em;
-  width: 100%
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
