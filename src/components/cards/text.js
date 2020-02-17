@@ -6,7 +6,8 @@ const TextCard = styled(Card)`
   color: #192223;
   text-decoration: none;
   display: block;
-  margin: 0.4em;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
   font-style: italic;
   font-size: 1em;
   font-weight: 500;

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Container from '../components/container'
 
 export const Title = styled.h1.attrs({ className: 'louder' })`
   font-weight: 100;
@@ -14,6 +15,9 @@ export const Title = styled.h1.attrs({ className: 'louder' })`
 export const Header = styled.h3`
   padding-top: 2rem;
   padding-bottom: 1.5rem;
+`
+export const GridContainer = styled(Container)`
+  max-width: 860px;
 `
 
 export const Section = styled.div`
