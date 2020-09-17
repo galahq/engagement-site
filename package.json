@@ -1,18 +1,21 @@
 {
   "name": "csc-website",
-  "description": "Citizens Sustainability Certificate website",
+  "description": "Gala Resources",
   "version": "1.0.0",
-  "author": "Cameron Bothner <cbothner@umich.edu>",
+  "author": "Ed Waisanen (waisaed@umich.edu)",
   "dependencies": {
-    "gatsby": "^1.9.247",
+    "babel-plugin-styled-components": "^1.11.1",
+    "gatsby": "^2.0.0",
     "gatsby-cli": "^2.8.29",
-    "gatsby-link": "^1.6.40",
+    "gatsby-link": "^2.4.13",
     "gatsby-plugin-google-analytics": "^2.1.34",
-    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-s3": "^0.3.2",
-    "gatsby-plugin-styled-components": "^2.0.11",
-    "react-helmet": "^5.2.0",
-    "styled-components": "^3.3.0"
+    "gatsby-plugin-styled-components": "^3.3.10",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.2.0"
   },
   "license": "MIT",
   "scripts": {
@@ -22,6 +25,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.12.0"
+    "prettier": "^2.1.1"
   }
 }

@@ -4,26 +4,11 @@ import styled from 'styled-components'
 import BaseCard from '../card'
 
 export default ({ title, description, href }) => (
-  <Card href={href}>
+  <BaseCard href={href}>
     <Title>{title}</Title>
     <Description>{description}</Description>
-  </Card>
+  </BaseCard>
 )
-
-const Card = BaseCard.withComponent('a').extend`
-  color: #192223;
-  text-decoration: none;
-  display: inline-block;
-  hyphens: manual;
-  margin: .4em;
-  width: 80%;
-  &:hover {
-    box-shadow: none;
-  }
-  @media (max-width: 700px) {
-    width: 90%;
-  }
-`
 
 const Title = styled.h3`
   text-decoration: underline;

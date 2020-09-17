@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import BaseCard from '../../components/card'
 
 export default ({ title, description, videoSrc }) => (
-  <VideoCard>
+  <VideoCard as="a">
     <VideoTitle>{title}</VideoTitle>
     <Description>{description}</Description>
     <Frame
@@ -17,11 +17,11 @@ export default ({ title, description, videoSrc }) => (
   </VideoCard>
 )
 
-const VideoCard = BaseCard.withComponent('a').extend`
+const VideoCard = styled(BaseCard)`
   color: #192223;
   text-decoration: none;
   display: inline-block;
-  margin: .4em;
+  margin: 0.4em;
 `
 
 const VideoTitle = styled.h3`

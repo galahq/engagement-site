@@ -3,24 +3,24 @@ import styled from 'styled-components'
 
 import BaseButton from '../button'
 import BaseCard from '../../components/card'
-
 export default ({ kicker, title, imageSrc, href }) => (
-  <Card href={href}>
+  <CaseCard href={href} as="a">
     <Image src={imageSrc} />
     <Kicker>{kicker}</Kicker>
     <Description>{title}</Description>
     <Button>Read the Full Case</Button>
-  </Card>
+  </CaseCard>
 )
 
-const Card = BaseCard.withComponent('a').extend`
+const CaseCard = styled(BaseCard)`
   color: #192223;
   text-decoration: none;
   display: inline-block;
-  margin: .4em;
+  margin: 0.4em;
+  text-align: center;
 `
 
-const Button = BaseButton.withComponent('span').extend`
+const Button = styled(BaseButton)`
   display: inline-block;
 `
 
@@ -37,5 +37,5 @@ const Kicker = styled.h3`
 const Description = styled.p`
   font-size: 0.95em;
   line-height: 1.1;
-  margin: 0.25em 0 1em;
+  margin: 0.5em 0.25em 0 0.25em;
 `

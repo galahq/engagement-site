@@ -1,21 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
-import Link from 'gatsby-link'
 
 import Container, { TextContainer } from '../components/container'
 import Topic from '../components/topic'
+import Layout from '../components/layout.js'
 import dioxane from '../assets/dioxane.jpg'
 
-const IndexPage = () => (
-  <div>
+const IndexPage = props => (
+  <Layout location={props.location}>
     <TextContainer>
       <p>
         Our work connecting research, learning, and practice leads us to find
         and create a wide range of multimedia resources. While you can often
         discover this content embeded within{' '}
-        <Link href="http://learngala.com">cases in our catalog</Link>, we also
-        compile and present some of these resources here, to help inform active
-        public discussion and problem-solving.
+        <a href="http://learngala.com">cases in our catalog</a>, we also compile
+        and present some of these resources here, to help inform active public
+        discussion and problem-solving.
       </p>
       <h2 id="Topics">Topics</h2>
     </TextContainer>
@@ -25,15 +25,15 @@ const IndexPage = () => (
         kicker="Dioxane Plume Pollution"
         title="Who should deal with the groundwater contamination in a university town?"
         imageSrc={dioxane}
-        href="./dioxane"
+        href="/dioxane"
       />
     </TopicsContainer>
-  </div>
+  </Layout>
 )
 
 export default IndexPage
 
-const TopicsContainer = Container.extend`
+const TopicsContainer = styled(Container)`
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1 fr;

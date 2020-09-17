@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import BaseCard from '../../components/card'
 
 export default ({ imageSrc, title, description, audioSrc }) => (
-  <AudioCard>
+  <AudioCard as="a">
     <Image src={imageSrc} />
     <AudioTitle>{title}</AudioTitle>
     <Description>{description}</Description>
@@ -11,11 +11,11 @@ export default ({ imageSrc, title, description, audioSrc }) => (
   </AudioCard>
 )
 
-const AudioCard = BaseCard.withComponent('a').extend`
+const AudioCard = styled(BaseCard)`
   color: #192223;
   text-decoration: none;
   display: block;
-  margin: .4em;
+  margin: 0.4em;
 `
 
 const Image = styled.img`

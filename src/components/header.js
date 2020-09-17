@@ -1,12 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import Logo from './logo'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 
-type Props = { full: boolean }
-const Header = ({ full }: Props) => (
-  <Container full={full}>
-    {full ? (
+const Header = props => (
+  <Container>
+    {props.full ? (
       <InnerContainer>
         <MainTitle>Briefing</MainTitle>
         <Subtitle>
@@ -25,14 +24,16 @@ const Header = ({ full }: Props) => (
           </a>{' '}
           <RaisedSpan>
             {' '}
-            / <TitleLink to="./">Briefing</TitleLink>
+            / <TitleLink to="/">Briefing</TitleLink>
           </RaisedSpan>
         </SmallTitle>
       </InnerContainer>
     )}
   </Container>
 )
+
 export default Header
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -40,6 +41,15 @@ const Container = styled.div`
   background-color: #02284b;
   color: white;
   margin-bottom: 2em;
+`
+const TitleLink = styled(Link)`
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `
 
 const MainTitle = styled.h1.attrs({ className: 'louder' })`
@@ -65,15 +75,6 @@ const Subtitle = styled.h2`
   line-height: 1.2;
   text-align: center;
   margin-bottom: 2em;
-`
-const TitleLink = styled(Link)`
-  font-weight: 300;
-  color: white;
-  text-decoration: none;
-
-  ${TitleLink}:hover {
-    text-decoration: underline;
-  }
 `
 
 const InnerContainer = styled.div`
